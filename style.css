@@ -190,6 +190,19 @@ section {
   width: 100%;
 }
 
+.card-preview {
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+  background: var(--surface2);
+}
+
+.card-preview iframe {
+  border: none;
+  display: block;
+  pointer-events: none;
+}
+
 .card-body {
   padding: 1.5rem;
 }
